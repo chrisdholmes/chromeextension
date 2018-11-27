@@ -1,0 +1,69 @@
+
+<html>
+<head>
+	<link rel="stylesheet" href="styles/incidentpopux.css">
+</head>
+<img src="images/slogo.png" id="slogo" align="left">
+
+<h1> Incident Report </h1>
+<body>
+
+<br>
+	Occurred Time:<br>
+	<input id="oTime" type="text" required><br>
+	Notified by: <br>
+	<select id="notification">
+	  <option value="note1">radio</option>
+	  <option value="note2">landline</option>
+	  <option value="note3">messenger</option>
+	  <option value="note4">email</option>
+	</select>
+	  
+	</select>
+	<br>
+	Site: <br>
+	<select id="sites">
+	  <option value="site1">SAF0181</option>
+	  <option value="site2">SAF0002</option>
+	  <option value="site3">SAF0655</option>
+	  <option value="site4">SAF0524</option>
+	  <option value="site5">SAU2658</option>
+	</select> <br>
+	Call sign: <br>
+	<select id="callsigns">
+	  <option value="cs1">181 Lobby 3</option>
+	  <option value="cs1">Sam 1</option>
+	  <option value="cs1">181 Lima 1</option>
+	  <option value="cs1">181 Lima 2</option>
+	  <option value="cs1">181 Patrol 1</option>
+	  <option value="cs1">181 Patrol 2</option>
+	  <option value="cs1">181 Interior 1</option>
+	  <option value="cs1">181 Interior 7</option>
+	  <option value="cs1">181 Lobby 1</option>
+	  <option value="cs1">181 Breaker 1</option>
+	  <option value="cs1">181 Breaker 2</option>
+	  <option value="cs1">655 Lobby 1</option>
+	  <option value="cs1">2 Lobby 1</option>
+	  <option value="cs1">2658 Lobby 1</option>
+	  </select>
+	</br>
+	Incident Name:
+	<br>
+	<input id="incident" type="text" required> <br>
+	
+	<button id="submitbtn">submit</button>
+
+	<div id="summary">
+	</div>
+
+</body>
+
+<div class="nav">
+	<button><a href="vrtpop.html"> Visitor Redirect </a></button>
+	<button><a href="elevmachrm.html"> Hot Elevator <br> Machine Rm </a> </button>
+	<button><a href="userwalkin.html"> User <br> Walk-in </a> </button>
+</div>
+<script type="text/javascript" src="incidentpop.js"></script>
+
+
+</html>

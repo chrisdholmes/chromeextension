@@ -1,0 +1,30 @@
+h1{
+	font-size: 30px;
+}
+body {
+	min-width: 300px;
+	min-height: 300px;
+	
+}
+button {
+	color: "#000";
+	background-color: "#000";
+	width: 100px;
+	height: 35px;
+}
+
+#slogo {
+	max-height: 50px;
+	margin-bottom: 20px;
+}
+
+select {
+	width: 175px;
+	margin-bottom: 13px;
+}
+
+#oTime, #numOfVis, #sites, #incident, #notification{
+	width: 175px;
+	margin-bottom: 13px;
+}
+

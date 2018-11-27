@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Incident Report Extension",
+	"version": "6.15",
+	"content_scripts": [ 
+	{
+			"matches": [
+				"https://immix.thefacebook.com/SiteMonitor.aspx?EventId=*"
+				],
+				"js": ["incidentpop.js"]
+		}
+	],
+	"browser_action": { 
+		"default_popup": "incidentpopux.html",
+		"default_icon": "images/slogo.png"
+		
+	},
+	"web_accessible_resources": ["logo.png"]
+	
+}
+	
+	
